@@ -1,7 +1,9 @@
 import React from 'react'
 
+import Layout from './container/Layout'
+
 const App = () => {
-  return <div></div>
+  return <Layout />
 }
 
 export default App
