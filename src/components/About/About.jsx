@@ -5,7 +5,7 @@ import aboutImage from '../../assets/about.png'
 const About = () => {
   return (
     <section className="mt-20">
-      <div className="flex items-center w-11/12 rounded-lg shadow-2xl p-6 m-auto space-x-7">
+      <div className="flex items-center w-10/12 rounded-lg shadow-2xl p-6 m-auto space-x-7">
         <article className="w-2/4 p-2">
           <p className="font-bold text-2xl">DISCOVER</p>
           <h1 className="font-black text-4xl">UPCOMING EVENTS</h1>
@@ -23,7 +23,7 @@ const About = () => {
           </div>
         </article>
         <div className="w-2/4">
-          <img src={aboutImage} alt="about" />
+          <img className="rounded" src={aboutImage} alt="about" />
         </div>
       </div>
     </section>
