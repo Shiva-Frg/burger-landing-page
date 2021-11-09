@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="grid grid-cols-2">
       <div className="flex items-center row-span-2 ml-4">
-        <img src={logo} alt="img" className="ml-7 w-1/4" />
+        <img src={logo} alt="img" className="ml-7 w-2/5" />
       </div>
       <div className="flex items-center justify-end p-5 space-x-3 mr-6 mt-2">
         <img src={contactIcon} alt="contact-icon" />

@@ -11,11 +11,11 @@ const Header = () => {
       <Navbar />
       <div className="grid grid-cols-5">
         <div className="p-7 mt-28 ml-4 col-span-2">
-          <p className="border-2 border-dashed border-yellow-900 font-semibold mb-1.5 w-full p-2.5">
+          <p className="border-4 border-dashed border-yellow-900 font-bold mb-1.5 w-full p-2.5">
             IT'S A GOOD TIME FOR THE GREATE TASTE OF BURGER
           </p>
-          <h1 className="text-8xl font-bold">BURGER</h1>
-          <h3 className="text-6xl font-bold">WEEK</h3>
+          <h1 className="text-8xl font-black">BURGER</h1>
+          <h3 className="text-6xl font-black">WEEK</h3>
         </div>
         <div className="-mt-24 pb-16 col-span-3">
           <img className="relative -mt-3 mr-5" src={headerBurger} alt="img" />
