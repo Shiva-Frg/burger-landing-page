@@ -10,6 +10,7 @@ module.exports = {
         'feature-img-1': "url('/src/assets/menu-left.png')",
         'feature-img-2': "url('/src/assets/menu-right-top.png')",
         'feature-img-3': "url('/src/assets/menu-right-bottom.png')",
+        'contact': "url('/src/assets/contact.png')",
       },
     },
   },
