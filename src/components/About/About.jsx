@@ -5,7 +5,7 @@ import aboutImage from '../../assets/about.png'
 const About = () => {
   return (
     <section className="mt-20">
-      <div className="flex items-center w-10/12 rounded-lg shadow-2xl p-6 m-auto space-x-7">
+      <div className="flex items-center w-10/12 rounded-lg shadow-2xl p-6 m-auto justify-between">
         <article className="w-2/4 p-2">
           <p className="font-bold text-2xl">DISCOVER</p>
           <h1 className="font-black text-4xl">UPCOMING EVENTS</h1>
@@ -17,9 +17,9 @@ const About = () => {
             reprehenderit in voluptate velit esse cillum.
           </p>
           <div className="flex items-center justify-between w-12 mt-6">
-            <labe className="text-yellow-400 font-black text-6xl">.</labe>
-            <labe className="text-gray-200 font-black text-6xl">.</labe>
-            <labe className="text-gray-200 font-black text-6xl">.</labe>
+            <label className="text-yellow-400 font-black text-6xl">.</label>
+            <label className="text-gray-200 font-black text-6xl">.</label>
+            <label className="text-gray-200 font-black text-6xl">.</label>
           </div>
         </article>
         <div className="w-2/4">
