@@ -35,7 +35,7 @@ const Contact = () => {
             placeholder="PEOPLE"
           />
           <input
-            className="font-black text-lg appearance-none block w-full bg-red-600 text-white rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+            className="font-black text-lg appearance-none block w-full bg-red-600 text-white rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white hover:bg-red-700 duration-200"
             type="submit"
             value="FIND A TABLE"
           />

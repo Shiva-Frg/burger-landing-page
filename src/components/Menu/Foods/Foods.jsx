@@ -23,7 +23,7 @@ const Foods = ({ menu }) => {
         <h3 className="text-3xl font-bold">{item.title}</h3>
         <p className="text-gray-500">{item.description}</p>
       </div>
-      <button className="bg-red-600 px-4 py-2.5 w-1/3 font-bold text-white">
+      <button className="bg-red-600 px-4 py-2.5 w-1/3 font-bold text-white hover:bg-red-700 duration-200">
         ORDER NOW
       </button>
     </article>
